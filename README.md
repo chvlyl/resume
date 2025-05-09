@@ -1,5 +1,11 @@
 # My resume
 
+## Independent AI Projects
+
+### aidaily.win
+AI Daily News is a voice-first, fully automated news digest that I conceived, coded, and deployed Independently. A local cron pipeline pulls dozens of RSS feeds, ranks articles, generates concise English and Chinese summaries with DeepSeek V3, converts them to high-quality speech via MiniMax TTS, stores all assets in Supabase, and pushes the resulting MP3s to Vercel Blob storage. A Next.js + TypeScript front end on Vercel streams the audio and displays the text, while all compute-heavy work runs in modular TypeScript scripts outside the serverless ceiling, giving sub-second API latency and zero timeout risk. This project showcases my end-to-end abilities in LLM orchestration, TTS integration, data engineering, cloud cost optimisation, and clean full-stack architecture.
+
+
 ## Pulications
 
 ### Label-Efficient Data Augmentation with Video Diffusion Models for Guidewire Segmentation in Cardiac Fluoroscopy
